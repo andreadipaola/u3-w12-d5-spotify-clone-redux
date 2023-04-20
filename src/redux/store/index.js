@@ -1,14 +1,8 @@
-
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
-
-import homeReducer from "../reducers/homeReducer";
-import albumReducer from "../reducers/albumReducer";
-import artistReducer from "../reducers/artistReducer";
+import homePageReducer from "../reducers/homePageReducer";
 
 const rootReducer = combineReducers({
-    home: homeReducer,
-    album: albumReducer,
-    artist: artistReducer
+    homePage: homePageReducer
 });
 
 const store = configureStore({

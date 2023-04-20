@@ -3,25 +3,14 @@
 @import "bootstrap/scss/variables";
 
 $enable-rounded: false;
-
-// $caret-vertical-align: $caret-width * 0;
-
-$custom-primary: #0073e6;
-$custom-white: #eaeaea;
+$custom-white: #fff;
 $custom-transparent: transparent;
 
-$body-color-dark: #eaeaea;
-$body-bg-dark: #141414;
-
 $custom-colors: (
-  "custom-primary": $custom-primary,
+  "custom-dark": #181818,
+  "custom-darkest": #121212,
   "custom-white": $custom-white,
-  "custom-lightgray": $gray-200,
-  "custom-gray": $gray-500,
-  "custom-darkgray": $gray-600,
-  "custom-darkestgray": $gray-700,
-  "custom-ultradarkgray": $gray-800,
-  "custom-dark": $body-bg-dark
+  "custom-gray": #a7a7a7
 );
 
 // $box-shadow: 0 0.5rem 1rem rgba($custom-white, 0.15);
@@ -37,7 +26,7 @@ $navbar-toggler-focus-width: 0;
 
 $nav-link-font-size: 14px;
 
-$link-color: $custom-primary;
+$link-color: $custom-white;
 $link-decoration: none;
 $link-hover-decoration: underline;
 
@@ -205,6 +194,7 @@ $utilities: map-merge(
         9: 9px,
         10: 10px,
         11: 11px,
+        12: 12px,
         13: 13px,
         14: 14px,
         16: 16px,
